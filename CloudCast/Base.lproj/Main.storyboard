@@ -61,16 +61,36 @@
                                     </label>
                                 </subviews>
                             </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t6j-eP-Wuu">
+                                <rect key="frame" x="16.000000000000004" y="340.33333333333331" width="37.333333333333343" height="34.333333333333314"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="◀"/>
+                                <connections>
+                                    <action selector="didTapBackButton:" destination="1wm-wJ-9dX" eventType="touchUpInside" id="bJJ-BY-lkD"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8js-Sn-YH6">
+                                <rect key="frame" x="339.66666666666669" y="340.33333333333331" width="37.333333333333314" height="34.333333333333314"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="▶"/>
+                                <connections>
+                                    <action selector="didTapForwardButton:" destination="1wm-wJ-9dX" eventType="touchUpInside" id="duk-yq-c72"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="1RZ-xK-ggj"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="CgL-Ye-8IR" firstAttribute="top" secondItem="1RZ-xK-ggj" secondAttribute="top" constant="20" id="2XG-In-2C2"/>
                             <constraint firstItem="7Am-ss-bpm" firstAttribute="top" secondItem="1RZ-xK-ggj" secondAttribute="top" constant="20" id="8DW-or-jWF"/>
+                            <constraint firstItem="1RZ-xK-ggj" firstAttribute="trailing" secondItem="8js-Sn-YH6" secondAttribute="trailing" constant="16" id="9tD-aV-4D1"/>
+                            <constraint firstItem="t6j-eP-Wuu" firstAttribute="leading" secondItem="1RZ-xK-ggj" secondAttribute="leading" constant="16" id="HMs-Ze-vca"/>
                             <constraint firstItem="4wx-66-opX" firstAttribute="centerX" secondItem="3Qr-RY-bJY" secondAttribute="centerX" id="MLQ-cZ-X8T"/>
+                            <constraint firstItem="8js-Sn-YH6" firstAttribute="centerY" secondItem="u6q-nG-zup" secondAttribute="centerY" id="NLy-l3-D2J"/>
                             <constraint firstItem="4wx-66-opX" firstAttribute="top" secondItem="CgL-Ye-8IR" secondAttribute="bottom" constant="75" id="aUT-Vt-d5P"/>
                             <constraint firstItem="CgL-Ye-8IR" firstAttribute="leading" secondItem="7Am-ss-bpm" secondAttribute="trailing" constant="2" id="gjE-AM-NBj"/>
                             <constraint firstItem="CgL-Ye-8IR" firstAttribute="centerX" secondItem="3Qr-RY-bJY" secondAttribute="centerX" id="hAT-LA-hHU"/>
+                            <constraint firstItem="t6j-eP-Wuu" firstAttribute="centerY" secondItem="u6q-nG-zup" secondAttribute="centerY" id="lIl-cm-711"/>
                             <constraint firstItem="CgL-Ye-8IR" firstAttribute="centerX" secondItem="3Qr-RY-bJY" secondAttribute="centerX" id="tQI-g5-q4D"/>
                         </constraints>
                     </view>

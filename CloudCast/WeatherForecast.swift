@@ -13,6 +13,8 @@ struct WeatherForecast {
     let temperature: Double
     let date: Date
     let weatherCode: WeatherCode
+    let windSpeed: Double
+    let precipitation: Double
 }
 
 // Collection of the different weather values, its description, and image
