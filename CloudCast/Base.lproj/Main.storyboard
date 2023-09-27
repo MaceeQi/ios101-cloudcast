@@ -74,6 +74,13 @@
                             <constraint firstItem="CgL-Ye-8IR" firstAttribute="centerX" secondItem="3Qr-RY-bJY" secondAttribute="centerX" id="tQI-g5-q4D"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="dateLabel" destination="8Wd-Ts-I3Z" id="u0O-rp-pdR"/>
+                        <outlet property="descriptionLabel" destination="KX9-qa-g2i" id="mBN-rZ-sfg"/>
+                        <outlet property="forecastImageView" destination="u6q-nG-zup" id="aKW-0y-hcL"/>
+                        <outlet property="locationLabel" destination="CgL-Ye-8IR" id="1c2-bp-Ozt"/>
+                        <outlet property="temperatureLabel" destination="wZO-8U-18r" id="x6u-es-Hbb"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="F3R-85-PGE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
